@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>She's Mine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #f8ecec, #ffeef1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Serif Bengali', serif;
+  overflow: hidden;
+}
+
+.letter {
+  background: #fff0f5;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-width: 700px;
+  animation: fadeIn 3s ease forwards;
+  opacity: 0;
+}
+
+.line {
+  font-size: 24px;
+  color: #6b1f39;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: appear 1s ease forwards;
+}
+
+.line:nth-child(1) { animation-delay: 0.5s; }
+.line:nth-child(2) { animation-delay: 2s; }
+.line:nth-child(3) { animation-delay: 3.5s; }
+.line:nth-child(4) { animation-delay: 5s; }
+.line:nth-child(5) { animation-delay: 6.5s; }
+.line:nth-child(6) { animation-delay: 8s; }
+.line:nth-child(7) { animation-delay: 9.5s; }
+.line:nth-child(8) { animation-delay: 11s; }
+.line:nth-child(9) { animation-delay: 12.5s; }
+.line:nth-child(10) { animation-delay: 14s; }
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+  </style>
+</head>
+<body>
+  <div class="letter">
+    <div class="line">আমার বেঁচে থাকার প্রতিটি প্রার্থনাতে শুধু একটাই চাওয়া—</div>
+    <div class="line">তোমার পাশে থেকে, তোমার হাত ধরে, ধীরে ধীরে একসাথে বৃদ্ধ হওয়া।</div>
+    <div class="line">আনহা, আমার সকল ভালোবাসা, সব আবেগ, সব স্বপ্ন…</div>
+    <div class="line">শুধু তোমার নামেই উৎসর্গ করা।</div>
+    <div class="line">তুমি সেই পূর্ণতা, যার অপেক্ষায় ছিল আমার হৃদয় বছরের পর বছর।</div>
+    <div class="line">তোমার চোখের গভীরতায় আমি হারিয়ে যেতে চাই, প্রতিদিন, প্রতিক্ষণ।</div>
+    <div class="line">তোমার হাসির আলোয় আমার সব অন্ধকার মুছে যায়,</div>
+    <div class="line">তোমার স্পর্শে এই পৃথিবীটাই নতুন মনে হয়।</div>
+    <div class="line">ভালোবাসি তোমায় এমনভাবে, যেখানে শেষ বলে কিছু নেই—</div>
+    <div class="line">শুধু তুমি, আমি, আর চিরন্তন এক ভালোবাসা…</div>
+  </div>
+</body>
+</html>
